@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 import 'package:tai/commonWidgets/mainButton.dart';
@@ -172,14 +174,14 @@ class _CreateNewGoalScreenState extends State<CreateNewGoalScreen> {
                 const SizedBox(
                   height: 200,
                 ),
-                MainButton(
-                    text: "Save",
-                    onpressed: () {
-                      Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (context) => const Note()));
-                    }),
+                // MainButton(
+                //     text: "Save",
+                //     onpressed: () {
+                //       Navigator.push(
+                //           context,
+                //           MaterialPageRoute(
+                //               builder: (context) => Route()));
+                //     }),
               ],
             ),
           ),
@@ -188,3 +190,4 @@ class _CreateNewGoalScreenState extends State<CreateNewGoalScreen> {
     );
   }
 }
+
