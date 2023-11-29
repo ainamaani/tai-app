@@ -106,7 +106,7 @@ class _CreateNewGoalScreenState extends State<CreateNewGoalScreen> {
                         lastDate: DateTime(2101));
 
                     String formattedDate =
-                        DateFormat('EE, d-MM-y').format(pickedDate!);
+                        DateFormat('EE, d-MM-y').format(pickedDate);
 
                     setState(() {
                       _startDate.text = formattedDate;
@@ -127,7 +127,7 @@ class _CreateNewGoalScreenState extends State<CreateNewGoalScreen> {
                           lastDate: DateTime(2101));
 
                       String formattedDate =
-                          DateFormat('EE, d-MM-y').format(pickedDate!);
+                          DateFormat('EE, d-MM-y').format(pickedDate);
 
                       setState(() {
                         _endDate.text = formattedDate;
